@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A03E26AD1B67A3D300A62869 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A03E26AC1B67A3D300A62869 /* main.cpp */; };
+		A03E26B61B67A43B00A62869 /* DependenciesSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A03E26B41B67A43B00A62869 /* DependenciesSolver.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		A03E26A91B67A3D300A62869 /* CrazyPackager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CrazyPackager; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03E26AC1B67A3D300A62869 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A03E26B31B67A3F400A62869 /* utils */ = {isa = PBXFileReference; lastKnownFileType = folder; path = utils; sourceTree = "<group>"; };
+		A03E26B41B67A43B00A62869 /* DependenciesSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DependenciesSolver.cpp; path = CrazyPackager/utils/DependenciesSolver.cpp; sourceTree = "<group>"; };
+		A03E26B51B67A43B00A62869 /* DependenciesSolver.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DependenciesSolver.hpp; path = CrazyPackager/utils/DependenciesSolver.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,8 @@
 		A03E26A01B67A3D300A62869 = {
 			isa = PBXGroup;
 			children = (
+				A03E26B41B67A43B00A62869 /* DependenciesSolver.cpp */,
+				A03E26B51B67A43B00A62869 /* DependenciesSolver.hpp */,
 				A03E26AB1B67A3D300A62869 /* CrazyPackager */,
 				A03E26AA1B67A3D300A62869 /* Products */,
 			);
@@ -57,6 +63,7 @@
 		A03E26AB1B67A3D300A62869 /* CrazyPackager */ = {
 			isa = PBXGroup;
 			children = (
+				A03E26B31B67A3F400A62869 /* utils */,
 				A03E26AC1B67A3D300A62869 /* main.cpp */,
 			);
 			path = CrazyPackager;
@@ -119,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A03E26AD1B67A3D300A62869 /* main.cpp in Sources */,
+				A03E26B61B67A43B00A62869 /* DependenciesSolver.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
