@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "03C095A3A1DCB30208C770C96028CC546B833CCD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "74DBEB931AFCAFC0E74DD91D13D20BBE2F9EA068" : 0,
+    "03C095A3A1DCB30208C770C96028CC546B833CCD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "251AFAAF-79D1-439D-A79F-ECA505F9AC6F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "74DBEB931AFCAFC0E74DD91D13D20BBE2F9EA068" : "CrazyPackager\/CrazyPackager\/utils\/snappy\/",
+    "03C095A3A1DCB30208C770C96028CC546B833CCD" : "CrazyPackager\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CrazyPackager",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CrazyPackager.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ItsLucas\/CrazyPackager.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "03C095A3A1DCB30208C770C96028CC546B833CCD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/google\/snappy.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "74DBEB931AFCAFC0E74DD91D13D20BBE2F9EA068"
+    }
+  ]
+}

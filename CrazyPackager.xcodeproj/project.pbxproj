@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A03E26AD1B67A3D300A62869 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A03E26AC1B67A3D300A62869 /* main.cpp */; };
 		A03E26B61B67A43B00A62869 /* DependenciesSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A03E26B41B67A43B00A62869 /* DependenciesSolver.cpp */; };
+		A0B0E5551B6879A200AFDCDB /* SnappyAPI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0B0E5531B6879A200AFDCDB /* SnappyAPI.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,9 @@
 		A03E26B31B67A3F400A62869 /* utils */ = {isa = PBXFileReference; lastKnownFileType = folder; path = utils; sourceTree = "<group>"; };
 		A03E26B41B67A43B00A62869 /* DependenciesSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DependenciesSolver.cpp; path = CrazyPackager/utils/DependenciesSolver.cpp; sourceTree = "<group>"; };
 		A03E26B51B67A43B00A62869 /* DependenciesSolver.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DependenciesSolver.hpp; path = CrazyPackager/utils/DependenciesSolver.hpp; sourceTree = "<group>"; };
+		A0B0E5521B68795300AFDCDB /* snappy */ = {isa = PBXFileReference; lastKnownFileType = folder; path = snappy; sourceTree = "<group>"; };
+		A0B0E5531B6879A200AFDCDB /* SnappyAPI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SnappyAPI.cpp; sourceTree = "<group>"; };
+		A0B0E5541B6879A200AFDCDB /* SnappyAPI.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SnappyAPI.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,9 @@
 		A03E26A01B67A3D300A62869 = {
 			isa = PBXGroup;
 			children = (
+				A0B0E5531B6879A200AFDCDB /* SnappyAPI.cpp */,
+				A0B0E5541B6879A200AFDCDB /* SnappyAPI.hpp */,
+				A0B0E5521B68795300AFDCDB /* snappy */,
 				A03E26B41B67A43B00A62869 /* DependenciesSolver.cpp */,
 				A03E26B51B67A43B00A62869 /* DependenciesSolver.hpp */,
 				A03E26AB1B67A3D300A62869 /* CrazyPackager */,
@@ -126,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A03E26AD1B67A3D300A62869 /* main.cpp in Sources */,
+				A0B0E5551B6879A200AFDCDB /* SnappyAPI.cpp in Sources */,
 				A03E26B61B67A43B00A62869 /* DependenciesSolver.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +251,7 @@
 				A03E26B21B67A3D300A62869 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
